@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+div {
+	position: fixed;
+	right: 50pt;
+	bottom: 100pt;
+}
+div img {
+	height: 39pt;
+	width: 61pt;
+	margin-top: 20pt;
+	margin-left: 20pt;
+}
+center img:first-child {
+	height: 600px;
+	width: 600px;
+	margin-top: 40pt;	
+}
+p {
+	font-size: 22pt;
+	margin-top: 150pt;
+	margin-bottom: 150pt;
+	font-weight: bold;
+	}
+pre {
+	text-align: left;
+	font-size: 22pt;
+	margin-left: 200pt;
+	margin-top: 50pt;
+	margin-bottom: 130pt;
+}
