@@ -3,13 +3,23 @@
 div {
 	position: fixed;
 	right: 50pt;
-	bottom: 100pt;
+	bottom: 70pt;
 }
-div img {
+div input[type="button"] {
+	background-size: 100% 100%;
 	height: 39pt;
 	width: 61pt;
+	background-position: center;
+	background-repeat: no-repeat;
 	margin-top: 20pt;
 	margin-left: 20pt;
+}
+#Up {
+	background-image: url(../imgaes/Up.jpg);
+	
+}
+#Down {
+	background-image: url(../imgaes/Down.jpg);
 }
 center img:first-child {
 	height: 600px;
