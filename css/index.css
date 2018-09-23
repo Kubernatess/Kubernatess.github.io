@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+div {
+	height: 60px;
+	width: 1130pt;
+}
 h1 {
 	display: inline;
 	color: #90C;
