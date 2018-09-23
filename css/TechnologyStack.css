@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+#header {
+	height: 60px;
+	width: 1130pt;
+	
+}
+input[type="text"] {
+	height: 30px;
+	width: 420px;
+	font-size: 16pt;	
+	margin-left: 120pt;	
+}
+img[src='imgaes/search.jpg'] {
+	height: 45px;
+	width: 45px;
+	margin-left: 110pt;
+	margin-bottom:-4pt;
+}
+h1 {
+	display: inline;
+	color: #90C;
+	text-align: center;
+	font-size: 40pt;
+	font-family: Arial;
+	margin-left: 150pt;
+}
+#center1 {
+	margin-top: -33pt;
+	height: 50px;
+}
+ul {
+	position: absolute;
+	left: 40pt;
+	top: 110pt;
+}
+ul li {
+	list-style-type: none;
+	margin-top: 25pt;
+	margin-bottom: 25pt;
+}
+ul li a{
+	font-family: Arial;
+	font-size: 23pt;
+	color: #000;
+	text-decoration: none;
+}
+#center2 {
+	margin-top: 60pt;
+	margin-left: 20pt;
+}
+img[src='imgaes/image1.jpg'] {
+	margin-bottom: 80pt;
+	margin-left: 10pt;	
+}
+pre {
+	text-align: left;
+	width: 61pt;
+	margin-right: 550pt;
+	font-size: 18pt;
+	font-family: Arial;
+	margin-top: 30pt;
+}
+#center2 p{
+	font-family: Arial;
+	font-size: 32pt;
+	color: #F60;
+	margin-left: 35pt;
+	margin-top: 100pt;
+	margin-bottom: 10pt;
+}
+p+img {
+	margin-left: 35pt;
+}
+h3 {
+	text-align: center;
+	font-size: 18pt;
+	font-family: Arial;
+	margin-top: 50pt;
+	font-weight: normal;
+	margin-left: 35pt;
+	margin-top: 30pt;
+}
