@@ -5,17 +5,16 @@ center img:first-child {
 	width: 600px;
 	margin-top: 40pt;	
 }
+center {
+	width: 1500px;
+}
 p {
 	font-size: 22pt;
 	margin-top: 150pt;
 	margin-bottom: 150pt;
 	font-weight: bold;
-	}
-pre {
-	text-align: left;
-	font-size: 22pt;
-	margin-right: 625pt;
-	margin-top: 50pt;
-	margin-bottom: 130pt;
-	width: 61pt;
+}
+center img {
+	height: auto;
+	width: 1100px;	
 }
