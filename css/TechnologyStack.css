@@ -78,3 +78,15 @@ h3 {
 	margin-left: 35pt;
 	margin-top: 30pt;
 }
+h2 {
+	text-align: left;
+	width: 500pt;
+	font-family: Arial;
+	margin-top: 30pt;
+	margin-left: -100pt;
+	font-size: 22pt;
+	margin-bottom:-10pt;
+}
+h2 + pre {
+	margin-right: 500pt;	
+}
