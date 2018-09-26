@@ -6,7 +6,7 @@ center img:first-child {
 	margin-top: 40pt;	
 }
 center {
-	width: 1500px;
+	
 }
 p {
 	font-size: 22pt;
@@ -17,4 +17,21 @@ p {
 center img {
 	height: auto;
 	width: 1100px;	
+}
+pre {
+	text-align: left;
+	font-family: Arial;
+	font-size: 24pt;
+	margin-left: 200pt;
+	margin-bottom: 150pt;
+	width: 1200px;
+}
+img[src="imgaes/image3.png"] {
+	width: 300px;
+	height:auto;
+}
+h3 {
+	font-family: Arial;
+	font-size: 20pt;
+	color: #09F;
 }
