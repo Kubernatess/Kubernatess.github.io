@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+input[type="text"] {
+	height: 30px;
+	width: 200px;
+	font-size: 20pt;
+	margin-left:300pt;
+}
+img[src='imgaes/search.jpg'] {
+	height: 40px;
+	width: 40px;
+	vertical-align: bottom;
+	
+}
+#header{
+	margin-top: 50pt;
+	margin-bottom: 50px;
+	
+}
+#order{
+	font-size: 20pt;
+	
+}
+.article{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+		
+}
+th img{
+	margin-top: 30pt;
+	width: 200pt;
+	height: auto;
+	padding-bottom: 20pt;
+}
+th+td{
+	font-size: 22pt;
+	font-weight: bold;
+	height: 80pt;
+}
+.hr{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+table{
+	width: 700pt;
+	border-collapse: collapse;
+}
+td a{
+	color: #06F;
+	text-decoration: none;	
+}

@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ultimate</title>
+<script type="text/javascript" src="js/BackToTop.js"></script>
+<link href="css/BackToTop.css" rel="stylesheet" type="text/css">
+<link href="css/ultimate.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="BackToTop">
+<input id="Up" type="button"><br/>
+<input id="Down" type="button">
+</div>
+
+<center>
+<p>Java工程师成神之路</p>
+<img src="imgaes/Article/ultimate.png">
+<br/><br/><br/><br/>
+<h1>一、基础篇</h1>
+<h2>JVM</h2>
+<h3>JVM内存结构</h3>
+<h4>堆、栈、方法区、直接内存、堆和栈区别</h4>
+<h3>Java内存模型</h3>
+<h4>内存可见性、重排序、顺序一致性、volatile、锁、final</h4>
+<h3>垃圾回收</h3>
+<h4>内存分配策略、垃圾收集器（G1）、GC算法、GC参数、对象存活的判定</h4>
+<h3>JVM参数及调优</h3>
+<h3>Java对象模型</h3>
+<h4>oop-klass、对象头</h4>
+<h3>HotSpot</h3>
+<h4>即时编译器、编译优化</h4>
+<h3>类加载机制</h3>
+<h4>classLoader、类加载过程、双亲委派（破坏双亲委派）、模块化（jboss modules、osgi、jigsaw）</h4>
+<h3>虚拟机性能监控与故障处理工具</h3>
+<h4>jps, jstack, jmap、jstat, jconsole, jinfo, jhat, javap, btrace、TProfiler</h4>
+<h2>编译与反编译</h2>
+<h4>javac 、javap 、jad 、CRF</h4>
+<h2>Java基础知识</h2>
+<h3>阅读源代码</h3>
+<h4>String、Integer、Long、Enum、BigDecimal、ThreadLocal、ClassLoader & URLClassLoader、ArrayList & LinkedList、 HashMap & LinkedHashMap & TreeMap & CouncurrentHashMap、HashSet & LinkedHashSet & TreeSet</h4>
+<h3>Java中各种变量类型</h3>
+<h3>熟悉Java String的使用，熟悉String的各种函数</h3>
+<h4>JDK 6和JDK 7中substring的原理及区别、</h4>
+<h4>replaceFirst、replaceAll、replace区别</h4>
+<h4>String对“+”的重载、</h4>
+<h4>String.valueOf和Integer.toString的区别、</h4>
+<h4>字符串的不可变性</h4>
+<h3>自动拆装箱</h3>
+<h4>Integer的缓存机制</h4>
+<h3>熟悉Java中各种关键字</h3>
+<h4>transient、instanceof、volatile、synchronized、final、static、const 原理及用法。</h4>
+<h3>集合类</h3>
+<h4>常用集合类的使用</h4>
+<h4>ArrayList和LinkedList和Vector的区别</h4>
+<h4>SynchronizedList和Vector的区别</h4>
+<h4>HashMap、HashTable、ConcurrentHashMap区别</h4>
+<h4>Java 8中stream相关用法</h4>
+<h4>apache集合处理工具类的使用</h4>
+<h4>不同版本的JDK中HashMap的实现的区别以及原因</h4>
+<h3>枚举</h3>
+<h4>枚举的用法、枚举与单例、Enum类</h4>
+<h3>Java IO&Java NIO，并学会使用</h3>
+<h4>bio、nio和aio的区别、三种IO的用法与原理、netty</h4>
+<h3>Java反射与javassist</h3>
+<h4>反射与工厂模式、 java.lang.reflect.*</h4>
+<h3>Java序列化</h3>
+<h4>什么是序列化与反序列化、为什么序列化</h4>
+<h4>序列化底层原理</h4>
+<h4>序列化与单例模式</h4>
+<h4>protobuf</h4>
+<h4>为什么说序列化并不安全</h4>
+<h3>注解</h3>
+<h4>元注解、自定义注解、Java中常用注解使用、注解与反射的结合</h4>
+<h3>JMS</h3>
+<h4>什么是Java消息服务、JMS消息传送模型</h4>
+<h3>JMX</h3>
+<h4>java.lang.management.*、 javax.management.*</h4>
+<h3>泛型</h3>
+<h4>泛型与继承</h4>
+<h4>类型擦除</h4>
+<h4>泛型中K T V E</h4>
+<h4>object等的含义、泛型各种用法</h4>
+<h3>单元测试</h3>
+<h4>junit、mock、mockito、内存数据库（h2）</h4>
+<h3>正则表达式</h3>
+<h4>java.lang.util.regex.*</h4>
+<h3>常用的Java工具库</h3>
+<h4>commons.lang, commons.*... guava-libraries netty</h4>
+<h3>什么是API&SPI</h3>
+<h3>异常</h3>
+<h4>异常类型、正确处理异常、自定义异常</h4>
+<h3>时间处理</h3>
+<h4>时区、时令、Java中时间API</h4>
+<h3>编码方式</h3>
+<h4>解决乱码问题、常用编码方式</h4>
+<h3>语法糖</h3>
+<h4>Java中语法糖原理、解语法糖</h4>
+<h2>Java并发编程</h2>
+<h3>什么是线程，与进程的区别</h3>
+<h3>阅读源代码，并学会使用</h3>
+<h4>Thread、Runnable、Callable、ReentrantLock、ReentrantReadWriteLock、Atomic*、Semaphore、CountDownLatch、、ConcurrentHashMap、Executors</h4>
+<h3>线程池</h3>
+<h4>自己设计线程池、submit() 和 execute()</h4>
+<h3>线程安全</h3>
+<h4>死锁、死锁如何排查、Java线程调度、线程安全和内存模型的关系</h4>
+<h3>锁</h3>
+<h4>CAS、乐观锁与悲观锁、数据库相关锁机制、分布式锁、偏向锁、轻量级锁、重量级锁、monitor、锁优化、锁消除、锁粗化、自旋锁、可重入锁、阻塞锁、死锁</h4>
+<h3>死锁</h3>
+<h3>volatile</h3>
+<h4>happens-before、编译器指令重排和CPU指令重</h4>
+<h3>synchronized</h3>
+<h4>synchronized是如何实现的？</h4>
+<h4>synchronized和lock之间关系</h4>
+<h4>不使用synchronized如何实现一个线程安全的单例</h4>
+<h3>sleep 和 wait</h3>
+<h3>wait 和 notify</h3>
+<h3>notify 和 notifyAll</h3>
+<h3>ThreadLocal</h3>
+<h3>写一个死锁的程序</h3>
+<h3>写代码来解决生产者消费者问题</h3>
+<h3>守护线程</h3>
+<h4>守护线程和非守护线程的区别以及用法</h4>
+<h1>二、 进阶篇</h1>
+<h2>Java底层知识</h2>
+<h3>字节码、class文件格式</h3>
+<h3>CPU缓存，L1，L2，L3和伪共享</h3>
+<h3>尾递归</h3>
+<h3>位运算</h3>
+<h4>用位运算实现加、减、乘、除、取余</h4>
+<h2>设计模式</h2>
+<h3>了解23种设计模式</h3>
+<h3>会使用常用设计模式</h3>
+<h4>单例、策略、工厂、适配器、责任链</h4>
+<h3>实现AOP</h3>
+<h3>实现IOC</h3>
+<h3>不用synchronized和lock，实现线程安全的单例模式</h3>
+<h3>nio和reactor设计模式</h3>
+<h2>网络编程</h2>
+<h3>tcp、udp、http、https等常用协议</h3>
+<h4>三次握手与四次关闭、流量控制和拥塞控制、OSI七层模型、tcp粘包与拆包</h4>
+<h3>http/1.0 http/1.1 http/2之前的区别</h3>
+<h3>Java RMI，Socket，HttpClient</h3>
+<h3>cookie 与 session</h3>
+<h4>cookie被禁用，如何实现session</h4>
+<h3>用Java写一个简单的静态文件的HTTP服务器</h3>
+<h4>实现客户端缓存功能，支持返回304 实现可并发下载一个文件 使用线程池处理客户端请求 使用nio处理客户端请求 支持简单的rewrite规则 上述功能在实现的时候需要满足“开闭原则”</h4>
+<h3>了解nginx和apache服务器的特性并搭建一个对应的服务器</h3>
+<h3>用Java实现FTP、SMTP协议</h3>
+<h3>进程间通讯的方式</h3>
+<h3>什么是CDN？如果实现？</h3>
+<h3>什么是DNS？</h3>
+<h3>反向代理</h3>
+<h2>框架知识</h2>
+<h3>Servlet线程安全问题</h3>
+<h3>Servlet中的filter和listener</h3>
+<h3>Hibernate的缓存机制</h3>
+<h3>Hiberate的懒加载</h3>
+<h3>Spring Bean的初始化</h3>
+<h3>Spring的AOP原理</h3>
+<h3>自己实现Spring的IOC</h3>
+<h3>Spring MVC</h3>
+<h3>Spring Boot2.0</h3>
+<h4>Spring Boot的starter原理，自己实现一个starter</h4>
+<h3>Spring Security</h3>
+<h2>应用服务器</h2>
+<h3>JBoss</h3>
+<h3>tomcat</h3>
+<h3>jetty</h3>
+<h3>Weblogic</h3>
+<h2>工具</h2>
+<h3>git & svn</h3>
+<h3>maven & gradle</h3>
+<h1>三、 高级篇</h1>
+<h2>新技术</h2>
+<h3>Java 8</h3>
+<h4>lambda表达式、Stream API</h4>
+<h3>Java 9</h3>
+<h4>Jigsaw、Jshell、Reactive Streams</h4>
+<h3>Java 10</h3>
+<h4>局部变量类型推断、G1的并行Full GC、ThreadLocal握手机制</h4>
+<h3>Spring 5</h3>
+<h4>响应式编程</h4>
+<h3>Spring Boot 2.0</h3>
+<h2>性能优化</h2>
+<h4>使用单例、使用Future模式、使用线程池、选择就绪、减少上下文切换、减少锁粒度、数据压缩、结果缓存</h4>
+<h2>线上问题分析</h2>
+<h3>dump获取</h3>
+<h4>线程Dump、内存Dump、gc情况</h4>
+<h3>dump分析</h3>
+<h4>分析死锁、分析内存泄露</h4>
+<h3>自己编写各种outofmemory，stackoverflow程序</h3>
+<h4>HeapOutOfMemory、 Young OutOfMemory、MethodArea OutOfMemory、ConstantPool OutOfMemory、DirectMemory OutOfMemory、Stack OutOfMemory Stack OverFlow</h4>
+<h3>常见问题解决思路</h3>
+<h4>内存溢出、线程死锁、类加载冲突</h4>
+<h3>使用工具尝试解决以下问题，并写下总结</h3>
+<h4>当一个Java程序响应很慢时如何查找问题、</h4>
+<h4>当一个Java程序频繁FullGC时如何解决问题、</h4>
+<h4>如何查看垃圾回收日志、</h4>
+<h4>当一个Java应用发生OutOfMemory时该如何解决、</h4>
+<h4>如何判断是否出现死锁、</h4>
+<h4>如何判断是否存在内存泄露</h4>
+<h2>编译原理知识</h2>
+<h3>编译与反编译</h3>
+<h3>Java代码的编译与反编译</h3>
+<h3>Java的反编译工具</h3>
+<h3>词法分析，语法分析（LL算法，递归下降算法，LR算法），语义分析，运行时环境，中间代码，代码生成，代码优化</h3>
+<h2>操作系统知识</h2>
+<h3>Linux的常用命令</h3>
+<h3>进程同步</h3>
+<h3>缓冲区溢出</h3>
+<h3>分段和分页</h3>
+<h3>虚拟内存与主存</h3>
+<h2>数据库知识</h2>
+<h3>MySql 执行引擎</h3>
+<h3>MySQL 执行计划</h3>
+<h4>如何查看执行计划，如何根据执行计划进行SQL优化</h4>
+<h3>SQL优化</h3>
+<h3>事务</h3>
+<h4>事务的隔离级别、事务能不能实现锁的功能</h4>
+<h3>数据库锁</h3>
+<h4>行锁、表锁、使用数据库锁实现乐观锁、</h4>
+<h3>数据库主备搭建</h3>
+<h3>binlog</h3>
+<h3>内存数据库</h3>
+<h4>h2</h4>
+<h3>常用的nosql数据库</h3>
+<h4>redis、memcached</h4>
+<h3>分别使用数据库锁、NoSql实现分布式锁</h3>
+<h3>性能调优</h3>
+<h2>数据结构与算法知识</h2>
+<h3>简单的数据结构</h3>
+<h4>栈、队列、链表、数组、哈希表、</h4>
+<h3>树</h3>
+<h4>二叉树、字典树、平衡树、排序树、B树、B+树、R树、多路树、红黑树</h4>
+<h3>排序算法</h3>
+<h4>各种排序算法和时间复杂度 深度优先和广度优先搜索 全排列、贪心算法、KMP算法、hash算法、海量数据处理</h4>
+<h2>大数据知识</h2>
+<h3>Zookeeper</h3>
+<h4>基本概念、常见用法</h4>
+<h3>Solr，Lucene，ElasticSearch</h3>
+<h4>在linux上部署solr，solrcloud，，新增、删除、查询索引</h4>
+<h3>Storm，流式计算，了解Spark，S4</h3>
+<h4>在linux上部署storm，用zookeeper做协调，运行storm hello world，local和remote模式运行调试storm topology</h4>
+<h3>Hadoop，离线计算</h3>
+<h4>HDFS、MapReduce</h4>
+<h3>分布式日志收集flume，kafka，logstash</h3>
+<h3>数据挖掘，mahout</h3>
+<h2>网络安全知识</h2>
+<h3>什么是XSS</h3>
+<h4>XSS的防御</h4>
+<h3>什么是CSRF</h3>
+<h3>什么是注入攻击</h3>
+<h4>SQL注入、XML注入、CRLF注入</h4>
+<h3>什么是文件上传漏洞</h3>
+<h3>加密与解密</h3>
+<h4>MD5，SHA1、DES、AES、RSA、DSA</h4>
+<h3>什么是DOS攻击和DDOS攻击</h3>
+<h4>memcached为什么可以导致DDos攻击、什么是反射型DDoS</h4>
+<h3>SSL、TLS，HTTPS</h3>
+<h3>如何通过Hash碰撞进行DOS攻击</h3>
+<h3>用openssl签一个证书部署到apache或nginx</h3>
+<h1>四、架构篇</h1>
+<h2>分布式</h2>
+<h4>数据一致性、服务治理、服务降级</h4>
+<h3>分布式事务</h3>
+<h4>2PC、3PC、CAP、BASE、 可靠消息最终一致性、最大努力通知、TCC</h4>
+<h3>Dubbo</h3>
+<h4>服务注册、服务发现，服务治理</h4>
+<h3>分布式数据库</h3>
+<h4>怎样打造一个分布式数据库、什么时候需要分布式数据库、mycat、otter、HBase</h4>
+<h3>分布式文件系统</h3>
+<h4>mfs、fastdfs</h4>
+<h3>分布式缓存</h3>
+<h4>缓存一致性、缓存命中率、缓存冗余</h4>
+<h2>微服务</h2>
+<h4>SOA、康威定律</h4>
+<h3>ServiceMesh</h3>
+<h3>Docker & Kubernets</h3>
+<h3>Spring Boot</h3>
+<h3>Spring Cloud</h3>
+<h2>高并发</h2>
+<h3>分库分表</h3>
+<h3>CDN技术</h3>
+<h3>消息队列</h3>
+<h4>ActiveMQ</h4>
+<h2>监控</h2>
+<h3>监控什么</h3>
+<h4>CPU、内存、磁盘I/O、网络I/O等</h4>
+<h3>监控手段</h3>
+<h4>进程监控、语义监控、机器资源监控、数据波动</h4>
+<h3>监控数据采集</h3>
+<h4>日志、埋点</h4>
+<h3>Dapper</h3>
+<h2>负载均衡</h2>
+<h4>tomcat负载均衡、Nginx负载均衡</h4>
+<h2>DNS</h2>
+<h4>DNS原理、DNS的设计</h4>
+<h2>CDN</h2>
+<h4>数据一致性</h4>
+<h1>五、 扩展篇</h1>
+<h2>云计算</h2>
+<h4>IaaS、SaaS、PaaS、虚拟化技术、openstack、ServerlsessM</h4>
+<h2>搜索引擎</h2>
+<h4>Solr、Lucene、Nutch、Elasticsearch</h4>
+<h2>权限管理</h2>
+<h4>Shiro</h4>
+<h2>区块链</h2>
+<h4>哈希算法、Merkle树、公钥密码算法、共识算法、Raft协议、Paxos 算法与 Raft 算法、拜占庭问题与算法、消息认证码与数字签名</h4>
+<h3>比特币</h3>
+<h4>挖矿、共识机制、闪电网络、侧链、热点问题、分叉</h4>
+<h3>以太坊</h3>
+<h3>超级账本</h3>
+<h2>人工智能</h2>
+<h4>数学基础、机器学习、人工神经网络、深度学习、应用场景</h4>
+<h3>常用框架</h3>
+<h4>TensorFlow、DeepLearning4J</h4>
+<h2>其他语言</h2>
+<h4>Groovy、Python、Go、NodeJs、Swift、Rust</h4>
+<h1>六、 推荐书籍</h1>
+<h4>《深入理解Java虚拟机》</h4>
+<h4>《Effective Java》</h4>
+<h4>《深入分析Java Web技术内幕》</h4>
+<h4>《大型网站技术架构》</h4>
+<h4>《代码整洁之道》</h4>
+<h4>《Head First设计模式》</h4>
+<h4>《maven实战》</h4>
+<h4>《区块链原理、设计与应用》</h4>
+<h4>《Java并发编程实战》</h4>
+<h4>《鸟哥的Linux私房菜》</h4>
+<h4>《从Paxos到Zookeeper》</h4>
+<h4>《架构即未来》</h4>
+<br/><br/><br/><br/>
+</center>
+</body>
+</html>
