@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+pre {
+	font-size: 17pt;
+	width: 700pt;
+	text-align: left;
+	padding: 10pt;
+	line-height: 30pt;
+}
+img{
+	width:685pt;	
+}
+p+pre{
+	background-color: #E2DFEC;
+	margin-top: 70pt;
+	width: 665pt;
+}
+h2{
+	font-size: 24pt;
+	font-weight: normal;
+	margin-left: 215pt;
+	text-align: left;
+	color: #06F;
+}
+h3{
+	font-size: 20pt;
+	margin-left: 215pt;
+	text-align: left;
+}
