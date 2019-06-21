@@ -22,9 +22,4 @@ window.onload=function ()
 			document.documentElement.scrollTop=document.body.scrollTop=scrollTop+iSpeed;
 		}, 30);
 	};
-	
-	var color=document.getElementById("favcolor");
-	color.onchange=function(){
-		document.body.style.backgroundColor=color.value; 
-	};
 };
